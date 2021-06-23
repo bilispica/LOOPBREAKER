@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_startgame2",
-    "path": "sprites/spr_startgame2/spr_startgame2.yy",
+    "name": "spr_exit",
+    "path": "sprites/spr_exit/spr_exit.yy",
   },
   "solid": false,
   "visible": true,

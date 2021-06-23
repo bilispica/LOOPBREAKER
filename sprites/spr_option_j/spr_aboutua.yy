@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "start1",
-    "path": "folders/sprite_ingame/start1.yy",
+    "name": "sprite_ingame",
+    "path": "folders/sprite_ingame.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_aboutua",
