@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "object_title",
-    "path": "folders/object_title.yy",
+    "name": "a_1",
+    "path": "folders/a_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_startgame_s",

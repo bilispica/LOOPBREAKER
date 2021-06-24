@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "room0",
-    "path": "folders/room0.yy",
+    "name": "a_1",
+    "path": "folders/a_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_story_skip1",

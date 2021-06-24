@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprite_game",
-    "path": "folders/sprite_game.yy",
+    "name": "stage11",
+    "path": "folders/stage11.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_abd3",

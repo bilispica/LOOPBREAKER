@@ -401,9 +401,9 @@ if(!l14F1BA20_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 175A8CA1
 				/// @DnDParent : 5D2DC084
-				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "expr" "3"
 				/// @DnDArgument : "var" "obj_opi.lan"
-				obj_opi.lan = 2;
+				obj_opi.lan = 3;
 			}
 		
 			/// @DnDAction : YoYo Games.Files.Ini_Write
@@ -566,8 +566,8 @@ if(!l14F1BA20_0)
 			/// @DnDParent : 3D4F3AB3
 			/// @DnDArgument : "var" "obj_opi.lan"
 			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "2"
-			if(!(obj_opi.lan == 2))
+			/// @DnDArgument : "value" "3"
+			if(!(obj_opi.lan == 3))
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -777,9 +777,9 @@ if(!l14F1BA20_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 78A8166E
 				/// @DnDParent : 6EC67519
-				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "expr" "3"
 				/// @DnDArgument : "var" "obj_opi.lan"
-				obj_opi.lan = 2;
+				obj_opi.lan = 3;
 			}
 		
 			/// @DnDAction : YoYo Games.Files.Ini_Write
@@ -943,8 +943,8 @@ if(!l14F1BA20_0)
 			/// @DnDParent : 5F167167
 			/// @DnDArgument : "var" "obj_opi.lan"
 			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "2"
-			if(!(obj_opi.lan == 2))
+			/// @DnDArgument : "value" "3"
+			if(!(obj_opi.lan == 3))
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -1160,9 +1160,9 @@ if(!l14F1BA20_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 1CAA936D
 				/// @DnDParent : 17B9CAA7
-				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "expr" "3"
 				/// @DnDArgument : "var" "obj_opi.lan"
-				obj_opi.lan = 2;
+				obj_opi.lan = 3;
 			}
 		
 			/// @DnDAction : YoYo Games.Files.Ini_Write
@@ -1332,8 +1332,8 @@ if(!l14F1BA20_0)
 			/// @DnDParent : 5FA48E95
 			/// @DnDArgument : "var" "obj_opi.lan"
 			/// @DnDArgument : "not" "1"
-			/// @DnDArgument : "value" "2"
-			if(!(obj_opi.lan == 2))
+			/// @DnDArgument : "value" "3"
+			if(!(obj_opi.lan == 3))
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

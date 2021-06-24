@@ -333,29 +333,29 @@ skills_23 = 5;
 /// @DnDVersion : 1
 /// @DnDHash : 78062E15
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "180"
-/// @DnDArgument : "expr_1" "20"
-/// @DnDArgument : "expr_2" "10"
+/// @DnDArgument : "expr" "210"
+/// @DnDArgument : "expr_1" "30"
+/// @DnDArgument : "expr_2" "20"
 /// @DnDArgument : "var" "time_24"
 /// @DnDArgument : "var_1" "skill_24"
 /// @DnDArgument : "var_2" "skills_24"
-time_24 = 180;
-skill_24 = 20;
-skills_24 = 10;
+time_24 = 210;
+skill_24 = 30;
+skills_24 = 20;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 22CD2DBD
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "210"
-/// @DnDArgument : "expr_1" "30"
-/// @DnDArgument : "expr_2" "17"
+/// @DnDArgument : "expr" "180"
+/// @DnDArgument : "expr_1" "20"
+/// @DnDArgument : "expr_2" "12"
 /// @DnDArgument : "var" "time_25"
 /// @DnDArgument : "var_1" "skill_25"
 /// @DnDArgument : "var_2" "skills_25"
-time_25 = 210;
-skill_25 = 30;
-skills_25 = 17;
+time_25 = 180;
+skill_25 = 20;
+skills_25 = 12;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

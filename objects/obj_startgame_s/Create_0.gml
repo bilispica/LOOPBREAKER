@@ -65,3 +65,20 @@ if(obj_opi.lan == 2)
 	sprite_index = spr_startgame_j;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 52A48631
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "3"
+if(obj_opi.lan == 3)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7588D81D
+	/// @DnDParent : 52A48631
+	/// @DnDArgument : "spriteind" "spr_startgame_z"
+	/// @DnDSaveInfo : "spriteind" "spr_startgame_z"
+	sprite_index = spr_startgame_z;
+	image_index = 0;
+}
