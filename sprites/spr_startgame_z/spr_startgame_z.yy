@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 125,
-  "bbox_right": 544,
-  "bbox_top": 3,
-  "bbox_bottom": 142,
+  "bbox_left": 133,
+  "bbox_right": 539,
+  "bbox_top": 0,
+  "bbox_bottom": 135,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7c1cb1a1-dee3-4163-97ba-585a9ead0440","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c1cb1a1-dee3-4163-97ba-585a9ead0440","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"LayerId":{"name":"3846da1a-4548-442c-8eb7-67f29f51ae9c","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_startgame_z","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","name":"7c1cb1a1-dee3-4163-97ba-585a9ead0440","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"26cefedf-cfd7-49c6-87a6-1f83f348b005","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"26cefedf-cfd7-49c6-87a6-1f83f348b005","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"LayerId":{"name":"86dd0bf5-39de-4a54-920f-2b283706363b","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_startgame_z","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","name":"26cefedf-cfd7-49c6-87a6-1f83f348b005","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_startgame_z","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6adc2ff1-2186-40cb-9417-141ea78017f7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c1cb1a1-dee3-4163-97ba-585a9ead0440","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e90b1b4f-59f7-4666-83ad-5d94af2000d6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26cefedf-cfd7-49c6-87a6-1f83f348b005","path":"sprites/spr_startgame_z/spr_startgame_z.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3846da1a-4548-442c-8eb7-67f29f51ae9c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"86dd0bf5-39de-4a54-920f-2b283706363b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "start1",
-    "path": "folders/sprite_ingame/start1.yy",
+    "path": "folders/stage00/start1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_startgame_z",

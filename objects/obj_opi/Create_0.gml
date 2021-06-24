@@ -36,8 +36,8 @@ if(l6F0C1211_0)
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "section" ""first""
 	/// @DnDArgument : "key" ""scr""
-	/// @DnDArgument : "default" ""1""
-	scr = ini_read_real("first", "scr", "1");
+	/// @DnDArgument : "default" "0"
+	scr = ini_read_real("first", "scr", 0);
 
 	/// @DnDAction : YoYo Games.Files.Ini_Read
 	/// @DnDVersion : 1
@@ -47,8 +47,8 @@ if(l6F0C1211_0)
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "section" ""first""
 	/// @DnDArgument : "key" ""one""
-	/// @DnDArgument : "default" ""0""
-	one = ini_read_real("first", "one", "0");
+	/// @DnDArgument : "default" "0"
+	one = ini_read_real("first", "one", 0);
 
 	/// @DnDAction : YoYo Games.Files.Ini_Read
 	/// @DnDVersion : 1
@@ -58,8 +58,8 @@ if(l6F0C1211_0)
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "section" ""first""
 	/// @DnDArgument : "key" ""mic""
-	/// @DnDArgument : "default" ""100""
-	mic = ini_read_real("first", "mic", "100");
+	/// @DnDArgument : "default" "100"
+	mic = ini_read_real("first", "mic", 100);
 
 	/// @DnDAction : YoYo Games.Files.Ini_Read
 	/// @DnDVersion : 1
@@ -69,8 +69,8 @@ if(l6F0C1211_0)
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "section" ""first""
 	/// @DnDArgument : "key" ""lan""
-	/// @DnDArgument : "default" ""1""
-	lan = ini_read_real("first", "lan", "1");
+	/// @DnDArgument : "default" "1"
+	lan = ini_read_real("first", "lan", 1);
 
 	/// @DnDAction : YoYo Games.Files.Close_Ini
 	/// @DnDVersion : 1

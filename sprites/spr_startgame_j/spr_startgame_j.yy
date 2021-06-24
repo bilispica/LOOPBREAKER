@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "start1",
-    "path": "folders/sprite_ingame/start1.yy",
+    "path": "folders/stage00/start1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_startgame_j",
