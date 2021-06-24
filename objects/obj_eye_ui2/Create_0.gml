@@ -23,3 +23,74 @@ alp = 0;
 k = 0;
 c = 0;
 s = 0;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 43D21FA1
+/// @DnDArgument : "var" "obj_opi.lan"
+if(obj_opi.lan == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 007763A8
+	/// @DnDParent : 43D21FA1
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abds1_c"
+	/// @DnDSaveInfo : "spriteind" "spr_abds1_c"
+	sprite_index = spr_abds1_c;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 28D9222E
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "1"
+if(obj_opi.lan == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 2B7A89F1
+	/// @DnDParent : 28D9222E
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abds1_e"
+	/// @DnDSaveInfo : "spriteind" "spr_abds1_e"
+	sprite_index = spr_abds1_e;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 046492C7
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "2"
+if(obj_opi.lan == 2)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B11BFA8
+	/// @DnDParent : 046492C7
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abds1"
+	/// @DnDSaveInfo : "spriteind" "spr_abds1"
+	sprite_index = spr_abds1;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4E35389D
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "3"
+if(obj_opi.lan == 3)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6E504356
+	/// @DnDParent : 4E35389D
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abds1_z"
+	/// @DnDSaveInfo : "spriteind" "spr_abds1_z"
+	sprite_index = spr_abds1_z;
+	image_index += 0;
+}

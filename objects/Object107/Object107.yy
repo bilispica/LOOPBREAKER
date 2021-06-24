@@ -20,12 +20,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "object_stage_select",
-    "path": "folders/object_stage_select.yy",
+    "name": "a_1",
+    "path": "folders/a_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "Object107",

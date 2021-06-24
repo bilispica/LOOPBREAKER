@@ -39,3 +39,74 @@ instance_create_layer(0, 0, "ins_pot_s", Object121);
 /// @DnDArgument : "layer" ""ins_pot_s""
 /// @DnDSaveInfo : "objectid" "Object124"
 instance_create_layer(0, 0, "ins_pot_s", Object124);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 24E27AEB
+/// @DnDArgument : "var" "obj_opi.lan"
+if(obj_opi.lan == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 52048C2B
+	/// @DnDParent : 24E27AEB
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abd6_c"
+	/// @DnDSaveInfo : "spriteind" "spr_abd6_c"
+	sprite_index = spr_abd6_c;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5D4BB9EA
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "1"
+if(obj_opi.lan == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 502572B6
+	/// @DnDParent : 5D4BB9EA
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abd6_e"
+	/// @DnDSaveInfo : "spriteind" "spr_abd6_e"
+	sprite_index = spr_abd6_e;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 12A03DC1
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "2"
+if(obj_opi.lan == 2)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6E5BBB4A
+	/// @DnDParent : 12A03DC1
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abd6"
+	/// @DnDSaveInfo : "spriteind" "spr_abd6"
+	sprite_index = spr_abd6;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 06DEC528
+/// @DnDArgument : "var" "obj_opi.lan"
+/// @DnDArgument : "value" "3"
+if(obj_opi.lan == 3)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 41BF6816
+	/// @DnDParent : 06DEC528
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_abd6_z"
+	/// @DnDSaveInfo : "spriteind" "spr_abd6_z"
+	sprite_index = spr_abd6_z;
+	image_index += 0;
+}

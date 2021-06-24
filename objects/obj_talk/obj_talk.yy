@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "a_1",
-    "path": "folders/a_1.yy",
+    "name": "o",
+    "path": "folders/a_1/o.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_talk",

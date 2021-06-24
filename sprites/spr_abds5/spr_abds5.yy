@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "stage11",
-    "path": "folders/stage11.yy",
+    "name": "j",
+    "path": "folders/stage11/j.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_abds5",

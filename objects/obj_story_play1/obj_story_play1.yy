@@ -20,12 +20,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "a_1",
-    "path": "folders/a_1.yy",
+    "name": "o",
+    "path": "folders/a_1/o.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_story_play1",
