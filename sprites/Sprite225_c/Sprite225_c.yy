@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "stage00",
-    "path": "folders/stage00.yy",
+    "name": "00",
+    "path": "folders/stage00/00.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite225_c",
