@@ -25,9 +25,9 @@ if(obj_opi.lan == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 767785A6
 	/// @DnDParent : 37DDC189
-	/// @DnDArgument : "spriteind" "spr_oji1_e"
-	/// @DnDSaveInfo : "spriteind" "spr_oji1_e"
-	sprite_index = spr_oji1_e;
+	/// @DnDArgument : "spriteind" "spr_oji1"
+	/// @DnDSaveInfo : "spriteind" "spr_oji1"
+	sprite_index = spr_oji1;
 	image_index = 0;
 }
 
@@ -42,9 +42,8 @@ if(obj_opi.lan == 2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1429AE00
 	/// @DnDParent : 3C648DC6
-	/// @DnDArgument : "spriteind" "spr_oji1"
-	/// @DnDSaveInfo : "spriteind" "spr_oji1"
-	sprite_index = spr_oji1;
+	/// @DnDArgument : "spriteind" "spr_oji1_j"
+	sprite_index = spr_oji1_j;
 	image_index = 0;
 }
 

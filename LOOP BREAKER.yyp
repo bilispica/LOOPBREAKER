@@ -524,7 +524,7 @@
     {"id":{"name":"spr_abd5_z","path":"sprites/spr_abd5_z/spr_abd5_z.yy",},"order":5,},
     {"id":{"name":"obj_stage_130","path":"objects/obj_stage_130/obj_stage_130.yy",},"order":30,},
     {"id":{"name":"spr_cut","path":"sprites/spr_cut/spr_cut.yy",},"order":2,},
-    {"id":{"name":"spr_oji1_e","path":"sprites/spr_oji1_e/spr_oji1_e.yy",},"order":25,},
+    {"id":{"name":"spr_oji1_j","path":"sprites/spr_oji1_j/spr_oji1_j.yy",},"order":25,},
     {"id":{"name":"a2_3","path":"tilesets/a2_3/a2_3.yy",},"order":11,},
     {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},"order":25,},
     {"id":{"name":"o05","path":"objects/o05/o05.yy",},"order":4,},
