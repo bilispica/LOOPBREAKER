@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite107",
-    "path": "sprites/Sprite107/Sprite107.yy",
+    "name": "Sprite107_5",
+    "path": "sprites/Sprite107_5/Sprite107_5.yy",
   },
   "tileWidth": 60,
   "tileHeight": 1080,

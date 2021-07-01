@@ -177,277 +177,251 @@ draw_self();
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
-/// @DnDHash : 18C1F2E7
-/// @DnDArgument : "obj" "obj_wo1"
-/// @DnDSaveInfo : "obj" "obj_wo1"
-var l18C1F2E7_0 = false;
-l18C1F2E7_0 = instance_exists(obj_wo1);
-if(l18C1F2E7_0)
+/// @DnDHash : 5602C071
+/// @DnDArgument : "obj" "obj_cut"
+/// @DnDSaveInfo : "obj" "obj_cut"
+var l5602C071_0 = false;
+l5602C071_0 = instance_exists(obj_cut);
+if(l5602C071_0)
 {
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 056C469F
-	/// @DnDParent : 18C1F2E7
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3,w1,0,0,0);$(13_10)draw_tile(a3,w2,0,60,0);$(13_10)draw_tile(a3,w3,0,120,0);$(13_10)draw_tile(a3,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3,w5,0,1680,0);$(13_10)draw_tile(a3,w6,0,1740,0);$(13_10)draw_tile(a3,w7,0,1800,0);$(13_10)draw_tile(a3,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2,s1,0,0,0);$(13_10)draw_tile(a2,s2,0,80,0);$(13_10)draw_tile(a2,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2,s4,0,1680,0);$(13_10)draw_tile(a2,s5,0,1760,0);$(13_10)draw_tile(a2,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd,a,0,0,0);$(13_10)draw_tile(abcd,b,0,120,0);$(13_10)draw_tile(abcd,c,0,1680,0);$(13_10)draw_tile(abcd,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 18C1F2E7
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo1"
+	/// @DnDSaveInfo : "obj" "obj_wo1"
+	var l18C1F2E7_0 = false;
+	l18C1F2E7_0 = instance_exists(obj_wo1);
+	if(l18C1F2E7_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3,w1,0,0,0);
-	draw_tile(a3,w2,0,60,0);
-	draw_tile(a3,w3,0,120,0);
-	draw_tile(a3,w4,0,180,0);
-	
-	draw_tile(a3,w5,0,1680,0);
-	draw_tile(a3,w6,0,1740,0);
-	draw_tile(a3,w7,0,1800,0);
-	draw_tile(a3,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2,s1,0,0,0);
-	draw_tile(a2,s2,0,80,0);
-	draw_tile(a2,s3,0,160,0);
-	
-	draw_tile(a2,s4,0,1680,0);
-	draw_tile(a2,s5,0,1760,0);
-	draw_tile(a2,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd,a,0,0,0);
-	draw_tile(abcd,b,0,120,0);
-	draw_tile(abcd,c,0,1680,0);
-	draw_tile(abcd,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 056C469F
+		/// @DnDParent : 18C1F2E7
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3,w1,0,0,0);$(13_10)draw_tile(a3,w2,0,60,0);$(13_10)draw_tile(a3,w3,0,120,0);$(13_10)draw_tile(a3,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3,w5,0,1680,0);$(13_10)draw_tile(a3,w6,0,1740,0);$(13_10)draw_tile(a3,w7,0,1800,0);$(13_10)draw_tile(a3,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2,s1,0,0,0);$(13_10)draw_tile(a2,s2,0,80,0);$(13_10)draw_tile(a2,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2,s4,0,1680,0);$(13_10)draw_tile(a2,s5,0,1760,0);$(13_10)draw_tile(a2,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd,a,0,0,0);$(13_10)draw_tile(abcd,b,0,120,0);$(13_10)draw_tile(abcd,c,0,1680,0);$(13_10)draw_tile(abcd,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3,w1,0,0,0);
+		draw_tile(a3,w2,0,60,0);
+		draw_tile(a3,w3,0,120,0);
+		draw_tile(a3,w4,0,180,0);
+		
+		draw_tile(a3,w5,0,1680,0);
+		draw_tile(a3,w6,0,1740,0);
+		draw_tile(a3,w7,0,1800,0);
+		draw_tile(a3,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2,s1,0,0,0);
+		draw_tile(a2,s2,0,80,0);
+		draw_tile(a2,s3,0,160,0);
+		
+		draw_tile(a2,s4,0,1680,0);
+		draw_tile(a2,s5,0,1760,0);
+		draw_tile(a2,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd,a,0,0,0);
+		draw_tile(abcd,b,0,120,0);
+		draw_tile(abcd,c,0,1680,0);
+		draw_tile(abcd,d,0,1800,0);
 	}
-}
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 523CD44D
-/// @DnDArgument : "obj" "obj_wo2"
-/// @DnDSaveInfo : "obj" "obj_wo2"
-var l523CD44D_0 = false;
-l523CD44D_0 = instance_exists(obj_wo2);
-if(l523CD44D_0)
-{
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 50713E93
-	/// @DnDParent : 523CD44D
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3_1,w1,0,0,0);$(13_10)draw_tile(a3_1,w2,0,60,0);$(13_10)draw_tile(a3_1,w3,0,120,0);$(13_10)draw_tile(a3_1,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_1,w5,0,1680,0);$(13_10)draw_tile(a3_1,w6,0,1740,0);$(13_10)draw_tile(a3_1,w7,0,1800,0);$(13_10)draw_tile(a3_1,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_1,s1,0,0,0);$(13_10)draw_tile(a2_1,s2,0,80,0);$(13_10)draw_tile(a2_1,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_1,s4,0,1680,0);$(13_10)draw_tile(a2_1,s5,0,1760,0);$(13_10)draw_tile(a2_1,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_1,a,0,0,0);$(13_10)draw_tile(abcd_1,b,0,120,0);$(13_10)draw_tile(abcd_1,c,0,1680,0);$(13_10)draw_tile(abcd_1,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 523CD44D
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo2"
+	/// @DnDSaveInfo : "obj" "obj_wo2"
+	var l523CD44D_0 = false;
+	l523CD44D_0 = instance_exists(obj_wo2);
+	if(l523CD44D_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3_1,w1,0,0,0);
-	draw_tile(a3_1,w2,0,60,0);
-	draw_tile(a3_1,w3,0,120,0);
-	draw_tile(a3_1,w4,0,180,0);
-	
-	draw_tile(a3_1,w5,0,1680,0);
-	draw_tile(a3_1,w6,0,1740,0);
-	draw_tile(a3_1,w7,0,1800,0);
-	draw_tile(a3_1,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2_1,s1,0,0,0);
-	draw_tile(a2_1,s2,0,80,0);
-	draw_tile(a2_1,s3,0,160,0);
-	
-	draw_tile(a2_1,s4,0,1680,0);
-	draw_tile(a2_1,s5,0,1760,0);
-	draw_tile(a2_1,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd_1,a,0,0,0);
-	draw_tile(abcd_1,b,0,120,0);
-	draw_tile(abcd_1,c,0,1680,0);
-	draw_tile(abcd_1,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 50713E93
+		/// @DnDParent : 523CD44D
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3_1,w1,0,0,0);$(13_10)draw_tile(a3_1,w2,0,60,0);$(13_10)draw_tile(a3_1,w3,0,120,0);$(13_10)draw_tile(a3_1,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_1,w5,0,1680,0);$(13_10)draw_tile(a3_1,w6,0,1740,0);$(13_10)draw_tile(a3_1,w7,0,1800,0);$(13_10)draw_tile(a3_1,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_1,s1,0,0,0);$(13_10)draw_tile(a2_1,s2,0,80,0);$(13_10)draw_tile(a2_1,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_1,s4,0,1680,0);$(13_10)draw_tile(a2_1,s5,0,1760,0);$(13_10)draw_tile(a2_1,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_1,a,0,0,0);$(13_10)draw_tile(abcd_1,b,0,120,0);$(13_10)draw_tile(abcd_1,c,0,1680,0);$(13_10)draw_tile(abcd_1,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3_1,w1,0,0,0);
+		draw_tile(a3_1,w2,0,60,0);
+		draw_tile(a3_1,w3,0,120,0);
+		draw_tile(a3_1,w4,0,180,0);
+		
+		draw_tile(a3_1,w5,0,1680,0);
+		draw_tile(a3_1,w6,0,1740,0);
+		draw_tile(a3_1,w7,0,1800,0);
+		draw_tile(a3_1,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2_1,s1,0,0,0);
+		draw_tile(a2_1,s2,0,80,0);
+		draw_tile(a2_1,s3,0,160,0);
+		
+		draw_tile(a2_1,s4,0,1680,0);
+		draw_tile(a2_1,s5,0,1760,0);
+		draw_tile(a2_1,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd_1,a,0,0,0);
+		draw_tile(abcd_1,b,0,120,0);
+		draw_tile(abcd_1,c,0,1680,0);
+		draw_tile(abcd_1,d,0,1800,0);
 	}
-}
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 5168C5C6
-/// @DnDArgument : "obj" "obj_wo3"
-/// @DnDSaveInfo : "obj" "obj_wo3"
-var l5168C5C6_0 = false;
-l5168C5C6_0 = instance_exists(obj_wo3);
-if(l5168C5C6_0)
-{
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 2168F736
-	/// @DnDParent : 5168C5C6
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3_2,w1,0,0,0);$(13_10)draw_tile(a3_2,w2,0,60,0);$(13_10)draw_tile(a3_2,w3,0,120,0);$(13_10)draw_tile(a3_2,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_2,w5,0,1680,0);$(13_10)draw_tile(a3_2,w6,0,1740,0);$(13_10)draw_tile(a3_2,w7,0,1800,0);$(13_10)draw_tile(a3_2,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_2,s1,0,0,0);$(13_10)draw_tile(a2_2,s2,0,80,0);$(13_10)draw_tile(a2_2,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_2,s4,0,1680,0);$(13_10)draw_tile(a2_2,s5,0,1760,0);$(13_10)draw_tile(a2_2,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_2,a,0,0,0);$(13_10)draw_tile(abcd_2,b,0,120,0);$(13_10)draw_tile(abcd_2,c,0,1680,0);$(13_10)draw_tile(abcd_2,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 5168C5C6
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo3"
+	/// @DnDSaveInfo : "obj" "obj_wo3"
+	var l5168C5C6_0 = false;
+	l5168C5C6_0 = instance_exists(obj_wo3);
+	if(l5168C5C6_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3_2,w1,0,0,0);
-	draw_tile(a3_2,w2,0,60,0);
-	draw_tile(a3_2,w3,0,120,0);
-	draw_tile(a3_2,w4,0,180,0);
-	
-	draw_tile(a3_2,w5,0,1680,0);
-	draw_tile(a3_2,w6,0,1740,0);
-	draw_tile(a3_2,w7,0,1800,0);
-	draw_tile(a3_2,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2_2,s1,0,0,0);
-	draw_tile(a2_2,s2,0,80,0);
-	draw_tile(a2_2,s3,0,160,0);
-	
-	draw_tile(a2_2,s4,0,1680,0);
-	draw_tile(a2_2,s5,0,1760,0);
-	draw_tile(a2_2,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd_2,a,0,0,0);
-	draw_tile(abcd_2,b,0,120,0);
-	draw_tile(abcd_2,c,0,1680,0);
-	draw_tile(abcd_2,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 2168F736
+		/// @DnDParent : 5168C5C6
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3_2,w1,0,0,0);$(13_10)draw_tile(a3_2,w2,0,60,0);$(13_10)draw_tile(a3_2,w3,0,120,0);$(13_10)draw_tile(a3_2,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_2,w5,0,1680,0);$(13_10)draw_tile(a3_2,w6,0,1740,0);$(13_10)draw_tile(a3_2,w7,0,1800,0);$(13_10)draw_tile(a3_2,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_2,s1,0,0,0);$(13_10)draw_tile(a2_2,s2,0,80,0);$(13_10)draw_tile(a2_2,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_2,s4,0,1680,0);$(13_10)draw_tile(a2_2,s5,0,1760,0);$(13_10)draw_tile(a2_2,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_2,a,0,0,0);$(13_10)draw_tile(abcd_2,b,0,120,0);$(13_10)draw_tile(abcd_2,c,0,1680,0);$(13_10)draw_tile(abcd_2,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3_2,w1,0,0,0);
+		draw_tile(a3_2,w2,0,60,0);
+		draw_tile(a3_2,w3,0,120,0);
+		draw_tile(a3_2,w4,0,180,0);
+		
+		draw_tile(a3_2,w5,0,1680,0);
+		draw_tile(a3_2,w6,0,1740,0);
+		draw_tile(a3_2,w7,0,1800,0);
+		draw_tile(a3_2,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2_2,s1,0,0,0);
+		draw_tile(a2_2,s2,0,80,0);
+		draw_tile(a2_2,s3,0,160,0);
+		
+		draw_tile(a2_2,s4,0,1680,0);
+		draw_tile(a2_2,s5,0,1760,0);
+		draw_tile(a2_2,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd_2,a,0,0,0);
+		draw_tile(abcd_2,b,0,120,0);
+		draw_tile(abcd_2,c,0,1680,0);
+		draw_tile(abcd_2,d,0,1800,0);
 	}
-}
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 36944D1D
-/// @DnDArgument : "obj" "obj_wo4"
-/// @DnDSaveInfo : "obj" "obj_wo4"
-var l36944D1D_0 = false;
-l36944D1D_0 = instance_exists(obj_wo4);
-if(l36944D1D_0)
-{
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 168AD5DB
-	/// @DnDParent : 36944D1D
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3_3,w1,0,0,0);$(13_10)draw_tile(a3_3,w2,0,60,0);$(13_10)draw_tile(a3_3,w3,0,120,0);$(13_10)draw_tile(a3_3,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_3,w5,0,1680,0);$(13_10)draw_tile(a3_3,w6,0,1740,0);$(13_10)draw_tile(a3_3,w7,0,1800,0);$(13_10)draw_tile(a3_3,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_3,s1,0,0,0);$(13_10)draw_tile(a2_3,s2,0,80,0);$(13_10)draw_tile(a2_3,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_3,s4,0,1680,0);$(13_10)draw_tile(a2_3,s5,0,1760,0);$(13_10)draw_tile(a2_3,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_3,a,0,0,0);$(13_10)draw_tile(abcd_3,b,0,120,0);$(13_10)draw_tile(abcd_3,c,0,1680,0);$(13_10)draw_tile(abcd_3,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 36944D1D
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo4"
+	/// @DnDSaveInfo : "obj" "obj_wo4"
+	var l36944D1D_0 = false;
+	l36944D1D_0 = instance_exists(obj_wo4);
+	if(l36944D1D_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3_3,w1,0,0,0);
-	draw_tile(a3_3,w2,0,60,0);
-	draw_tile(a3_3,w3,0,120,0);
-	draw_tile(a3_3,w4,0,180,0);
-	
-	draw_tile(a3_3,w5,0,1680,0);
-	draw_tile(a3_3,w6,0,1740,0);
-	draw_tile(a3_3,w7,0,1800,0);
-	draw_tile(a3_3,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2_3,s1,0,0,0);
-	draw_tile(a2_3,s2,0,80,0);
-	draw_tile(a2_3,s3,0,160,0);
-	
-	draw_tile(a2_3,s4,0,1680,0);
-	draw_tile(a2_3,s5,0,1760,0);
-	draw_tile(a2_3,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd_3,a,0,0,0);
-	draw_tile(abcd_3,b,0,120,0);
-	draw_tile(abcd_3,c,0,1680,0);
-	draw_tile(abcd_3,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 168AD5DB
+		/// @DnDParent : 36944D1D
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3_3,w1,0,0,0);$(13_10)draw_tile(a3_3,w2,0,60,0);$(13_10)draw_tile(a3_3,w3,0,120,0);$(13_10)draw_tile(a3_3,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_3,w5,0,1680,0);$(13_10)draw_tile(a3_3,w6,0,1740,0);$(13_10)draw_tile(a3_3,w7,0,1800,0);$(13_10)draw_tile(a3_3,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_3,s1,0,0,0);$(13_10)draw_tile(a2_3,s2,0,80,0);$(13_10)draw_tile(a2_3,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_3,s4,0,1680,0);$(13_10)draw_tile(a2_3,s5,0,1760,0);$(13_10)draw_tile(a2_3,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_3,a,0,0,0);$(13_10)draw_tile(abcd_3,b,0,120,0);$(13_10)draw_tile(abcd_3,c,0,1680,0);$(13_10)draw_tile(abcd_3,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3_3,w1,0,0,0);
+		draw_tile(a3_3,w2,0,60,0);
+		draw_tile(a3_3,w3,0,120,0);
+		draw_tile(a3_3,w4,0,180,0);
+		
+		draw_tile(a3_3,w5,0,1680,0);
+		draw_tile(a3_3,w6,0,1740,0);
+		draw_tile(a3_3,w7,0,1800,0);
+		draw_tile(a3_3,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2_3,s1,0,0,0);
+		draw_tile(a2_3,s2,0,80,0);
+		draw_tile(a2_3,s3,0,160,0);
+		
+		draw_tile(a2_3,s4,0,1680,0);
+		draw_tile(a2_3,s5,0,1760,0);
+		draw_tile(a2_3,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd_3,a,0,0,0);
+		draw_tile(abcd_3,b,0,120,0);
+		draw_tile(abcd_3,c,0,1680,0);
+		draw_tile(abcd_3,d,0,1800,0);
 	}
-}
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 64475FF2
-/// @DnDArgument : "obj" "obj_wo5"
-/// @DnDSaveInfo : "obj" "obj_wo5"
-var l64475FF2_0 = false;
-l64475FF2_0 = instance_exists(obj_wo5);
-if(l64475FF2_0)
-{
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 129EA457
-	/// @DnDParent : 64475FF2
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3_4,w1,0,0,0);$(13_10)draw_tile(a3_4,w2,0,60,0);$(13_10)draw_tile(a3_4,w3,0,120,0);$(13_10)draw_tile(a3_4,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_4,w5,0,1680,0);$(13_10)draw_tile(a3_4,w6,0,1740,0);$(13_10)draw_tile(a3_4,w7,0,1800,0);$(13_10)draw_tile(a3_4,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_4,s1,0,0,0);$(13_10)draw_tile(a2_4,s2,0,80,0);$(13_10)draw_tile(a2_4,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_4,s4,0,1680,0);$(13_10)draw_tile(a2_4,s5,0,1760,0);$(13_10)draw_tile(a2_4,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_4,a,0,0,0);$(13_10)draw_tile(abcd_4,b,0,120,0);$(13_10)draw_tile(abcd_4,c,0,1680,0);$(13_10)draw_tile(abcd_4,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 64475FF2
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo5"
+	/// @DnDSaveInfo : "obj" "obj_wo5"
+	var l64475FF2_0 = false;
+	l64475FF2_0 = instance_exists(obj_wo5);
+	if(l64475FF2_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3_4,w1,0,0,0);
-	draw_tile(a3_4,w2,0,60,0);
-	draw_tile(a3_4,w3,0,120,0);
-	draw_tile(a3_4,w4,0,180,0);
-	
-	draw_tile(a3_4,w5,0,1680,0);
-	draw_tile(a3_4,w6,0,1740,0);
-	draw_tile(a3_4,w7,0,1800,0);
-	draw_tile(a3_4,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2_4,s1,0,0,0);
-	draw_tile(a2_4,s2,0,80,0);
-	draw_tile(a2_4,s3,0,160,0);
-	
-	draw_tile(a2_4,s4,0,1680,0);
-	draw_tile(a2_4,s5,0,1760,0);
-	draw_tile(a2_4,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd_4,a,0,0,0);
-	draw_tile(abcd_4,b,0,120,0);
-	draw_tile(abcd_4,c,0,1680,0);
-	draw_tile(abcd_4,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 129EA457
+		/// @DnDParent : 64475FF2
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3_4,w1,0,0,0);$(13_10)draw_tile(a3_4,w2,0,60,0);$(13_10)draw_tile(a3_4,w3,0,120,0);$(13_10)draw_tile(a3_4,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_4,w5,0,1680,0);$(13_10)draw_tile(a3_4,w6,0,1740,0);$(13_10)draw_tile(a3_4,w7,0,1800,0);$(13_10)draw_tile(a3_4,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_4,s1,0,0,0);$(13_10)draw_tile(a2_4,s2,0,80,0);$(13_10)draw_tile(a2_4,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_4,s4,0,1680,0);$(13_10)draw_tile(a2_4,s5,0,1760,0);$(13_10)draw_tile(a2_4,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_4,a,0,0,0);$(13_10)draw_tile(abcd_4,b,0,120,0);$(13_10)draw_tile(abcd_4,c,0,1680,0);$(13_10)draw_tile(abcd_4,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3_4,w1,0,0,0);
+		draw_tile(a3_4,w2,0,60,0);
+		draw_tile(a3_4,w3,0,120,0);
+		draw_tile(a3_4,w4,0,180,0);
+		
+		draw_tile(a3_4,w5,0,1680,0);
+		draw_tile(a3_4,w6,0,1740,0);
+		draw_tile(a3_4,w7,0,1800,0);
+		draw_tile(a3_4,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2_4,s1,0,0,0);
+		draw_tile(a2_4,s2,0,80,0);
+		draw_tile(a2_4,s3,0,160,0);
+		
+		draw_tile(a2_4,s4,0,1680,0);
+		draw_tile(a2_4,s5,0,1760,0);
+		draw_tile(a2_4,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd_4,a,0,0,0);
+		draw_tile(abcd_4,b,0,120,0);
+		draw_tile(abcd_4,c,0,1680,0);
+		draw_tile(abcd_4,d,0,1800,0);
 	}
-}
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 5D46B797
-/// @DnDArgument : "obj" "obj_wo6"
-/// @DnDSaveInfo : "obj" "obj_wo6"
-var l5D46B797_0 = false;
-l5D46B797_0 = instance_exists(obj_wo6);
-if(l5D46B797_0)
-{
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 07E1C413
-	/// @DnDParent : 5D46B797
-	/// @DnDArgument : "code" "var l34846D40_0 = false;$(13_10)l34846D40_0 = instance_exists(obj_cut);$(13_10)if(l34846D40_0)$(13_10){$(13_10)$(13_10)$(13_10)depth=870;$(13_10)draw_tile(a3_5,w1,0,0,0);$(13_10)draw_tile(a3_5,w2,0,60,0);$(13_10)draw_tile(a3_5,w3,0,120,0);$(13_10)draw_tile(a3_5,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_5,w5,0,1680,0);$(13_10)draw_tile(a3_5,w6,0,1740,0);$(13_10)draw_tile(a3_5,w7,0,1800,0);$(13_10)draw_tile(a3_5,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_5,s1,0,0,0);$(13_10)draw_tile(a2_5,s2,0,80,0);$(13_10)draw_tile(a2_5,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_5,s4,0,1680,0);$(13_10)draw_tile(a2_5,s5,0,1760,0);$(13_10)draw_tile(a2_5,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_5,a,0,0,0);$(13_10)draw_tile(abcd_5,b,0,120,0);$(13_10)draw_tile(abcd_5,c,0,1680,0);$(13_10)draw_tile(abcd_5,d,0,1800,0);$(13_10)}"
-	var l34846D40_0 = false;
-	l34846D40_0 = instance_exists(obj_cut);
-	if(l34846D40_0)
+	/// @DnDHash : 5D46B797
+	/// @DnDParent : 5602C071
+	/// @DnDArgument : "obj" "obj_wo6"
+	/// @DnDSaveInfo : "obj" "obj_wo6"
+	var l5D46B797_0 = false;
+	l5D46B797_0 = instance_exists(obj_wo6);
+	if(l5D46B797_0)
 	{
-	
-	
-	depth=870;
-	draw_tile(a3_5,w1,0,0,0);
-	draw_tile(a3_5,w2,0,60,0);
-	draw_tile(a3_5,w3,0,120,0);
-	draw_tile(a3_5,w4,0,180,0);
-	
-	draw_tile(a3_5,w5,0,1680,0);
-	draw_tile(a3_5,w6,0,1740,0);
-	draw_tile(a3_5,w7,0,1800,0);
-	draw_tile(a3_5,w8,0,1860,0);
-	depth=860;
-	draw_tile(a2_5,s1,0,0,0);
-	draw_tile(a2_5,s2,0,80,0);
-	draw_tile(a2_5,s3,0,160,0);
-	
-	draw_tile(a2_5,s4,0,1680,0);
-	draw_tile(a2_5,s5,0,1760,0);
-	draw_tile(a2_5,s6,0,1840,0);
-	depth=850;
-	draw_tile(abcd_5,a,0,0,0);
-	draw_tile(abcd_5,b,0,120,0);
-	draw_tile(abcd_5,c,0,1680,0);
-	draw_tile(abcd_5,d,0,1800,0);
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 07E1C413
+		/// @DnDParent : 5D46B797
+		/// @DnDArgument : "code" "depth=870;$(13_10)draw_tile(a3_5,w1,0,0,0);$(13_10)draw_tile(a3_5,w2,0,60,0);$(13_10)draw_tile(a3_5,w3,0,120,0);$(13_10)draw_tile(a3_5,w4,0,180,0);$(13_10)$(13_10)draw_tile(a3_5,w5,0,1680,0);$(13_10)draw_tile(a3_5,w6,0,1740,0);$(13_10)draw_tile(a3_5,w7,0,1800,0);$(13_10)draw_tile(a3_5,w8,0,1860,0);$(13_10)depth=860;$(13_10)draw_tile(a2_5,s1,0,0,0);$(13_10)draw_tile(a2_5,s2,0,80,0);$(13_10)draw_tile(a2_5,s3,0,160,0);$(13_10)$(13_10)draw_tile(a2_5,s4,0,1680,0);$(13_10)draw_tile(a2_5,s5,0,1760,0);$(13_10)draw_tile(a2_5,s6,0,1840,0);$(13_10)depth=850;$(13_10)draw_tile(abcd_5,a,0,0,0);$(13_10)draw_tile(abcd_5,b,0,120,0);$(13_10)draw_tile(abcd_5,c,0,1680,0);$(13_10)draw_tile(abcd_5,d,0,1800,0);"
+		depth=870;
+		draw_tile(a3_5,w1,0,0,0);
+		draw_tile(a3_5,w2,0,60,0);
+		draw_tile(a3_5,w3,0,120,0);
+		draw_tile(a3_5,w4,0,180,0);
+		
+		draw_tile(a3_5,w5,0,1680,0);
+		draw_tile(a3_5,w6,0,1740,0);
+		draw_tile(a3_5,w7,0,1800,0);
+		draw_tile(a3_5,w8,0,1860,0);
+		depth=860;
+		draw_tile(a2_5,s1,0,0,0);
+		draw_tile(a2_5,s2,0,80,0);
+		draw_tile(a2_5,s3,0,160,0);
+		
+		draw_tile(a2_5,s4,0,1680,0);
+		draw_tile(a2_5,s5,0,1760,0);
+		draw_tile(a2_5,s6,0,1840,0);
+		depth=850;
+		draw_tile(abcd_5,a,0,0,0);
+		draw_tile(abcd_5,b,0,120,0);
+		draw_tile(abcd_5,c,0,1680,0);
+		draw_tile(abcd_5,d,0,1800,0);
 	}
 }
 
